@@ -1,0 +1,110 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: "Segoe UI", sans-serif;
+}
+
+body{
+height:100vh;
+background: linear-gradient(120deg,#1f4037,#99f2c8);
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* Main Container */
+
+.container{
+width:100%;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+/* Glass Effect Form */
+
+.form{
+width:350px;
+padding:40px;
+border-radius:15px;
+background: rgba(255,255,255,0.1);
+backdrop-filter: blur(15px);
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+text-align:center;
+color:white;
+}
+
+/* Title */
+
+.form h2{
+margin-bottom:25px;
+font-size:28px;
+letter-spacing:1px;
+}
+
+/* Inputs */
+
+input{
+width:100%;
+padding:12px;
+margin:10px 0;
+border:none;
+border-radius:8px;
+outline:none;
+font-size:14px;
+background:rgba(255,255,255,0.2);
+color:white;
+}
+
+input::placeholder{
+color:#eee;
+}
+
+/* Button */
+
+button{
+width:100%;
+padding:12px;
+margin-top:10px;
+border:none;
+border-radius:8px;
+background:#00c9ff;
+background: linear-gradient(45deg,#00c9ff,#92fe9d);
+color:#000;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+button:hover{
+transform:scale(1.05);
+box-shadow:0 5px 15px rgba(0,0,0,0.4);
+}
+
+/* Links */
+
+.form p{
+margin-top:15px;
+font-size:14px;
+color:#fff;
+}
+
+.form a{
+color:#ffd700;
+text-decoration:none;
+font-weight:bold;
+}
+
+.form a:hover{
+text-decoration:underline;
+}
+
+/* Error Messages */
+
+.form p{
+font-size:12px;
+color:#ff6b6b;
+}
